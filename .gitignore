@@ -1,0 +1,134 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# testing
+/coverage
+/.nyc_output
+
+# next.js
+/.next/
+/out/
+.next
+out
+
+# production
+/build
+dist
+
+# misc
+.DS_Store
+*.pem
+*.log
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# local env files
+.env*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# prisma
+/prisma/migrations
+# Keep migrations but ignore generated client if needed
+# /node_modules/.prisma
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows
+*.stackdump
+[Dd]esktop.ini
+
+# IDE - VS Code / Cursor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+.cursor/
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.turbo/
+
+# Build outputs
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.development
+.env.production
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
